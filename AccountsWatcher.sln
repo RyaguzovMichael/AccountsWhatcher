@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E48E68F6-75B1-476A-8B6E-B4E3F187A4D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{5B730C38-9F0F-46A4-A4A5-056ABFC4EC0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountsWatcher.Domain", "src\AccountsWatcher.Domain\AccountsWatcher.Domain.csproj", "{403D68C5-9824-4A89-B0DD-C2F2AEC0988C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountsWatcher.Domain.Tests", "tests\AccountsWatcher.Domain.Tests\AccountsWatcher.Domain.Tests.csproj", "{BF6D609C-4BDC-4EB0-999D-C821E4FD9E89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{403D68C5-9824-4A89-B0DD-C2F2AEC0988C} = {E48E68F6-75B1-476A-8B6E-B4E3F187A4D6}
+		{BF6D609C-4BDC-4EB0-999D-C821E4FD9E89} = {5B730C38-9F0F-46A4-A4A5-056ABFC4EC0F}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{403D68C5-9824-4A89-B0DD-C2F2AEC0988C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{403D68C5-9824-4A89-B0DD-C2F2AEC0988C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{403D68C5-9824-4A89-B0DD-C2F2AEC0988C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{403D68C5-9824-4A89-B0DD-C2F2AEC0988C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF6D609C-4BDC-4EB0-999D-C821E4FD9E89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF6D609C-4BDC-4EB0-999D-C821E4FD9E89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF6D609C-4BDC-4EB0-999D-C821E4FD9E89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF6D609C-4BDC-4EB0-999D-C821E4FD9E89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
